@@ -19,9 +19,44 @@ html {
     box-sizing: inherit;
   }
 
+  /* Typography */
+  
 body {
     font-family: var(--font-sans-serif);
     font-weight: bold;
     color: var(--black);
     line-height: 2;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif);
+    color: var(--black);
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+/* .component */
+
+.component img {
+    max-width: 50%;
+}
+
+.component__img {
+    border: 1px solid var(--black);
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid var(--black);
 }
