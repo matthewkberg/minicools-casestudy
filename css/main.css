@@ -1,0 +1,27 @@
+:root {
+    --font-sans-serif: Poppins, sans-serif;
+    --font-serif: Luckiest Guy, serif;
+    --black: #000;
+    --white: #eaeaea;
+    --red: #f52437;
+    --orange: #f95008;
+    --yellow: #fbb92a;
+    --green: #148f67;
+    --blue: #1989f0;
+    --pink: #ed9ede;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    color: var(--black);
+    line-height: 2;
+}
