@@ -238,12 +238,12 @@ h3 {
 
 .component__code--ThisIS a {
     color: var(--black);
-    text-decoration: none;
+
 }
 
 .component__code--ThisIS a:hover {
     color: var(--white);
-    text-decoration: none;
+
 }
 
 .button {
@@ -283,3 +283,45 @@ h3 {
     top: 3.5rem;
     right: 5rem;
 }
+
+  /* OUR STORY */
+
+  .component__code--OurStory {
+      display: inline-block;
+      width: 100%;
+      background-color: var(--pink);
+      text-align: center;
+  }
+
+  .component__code--OurStory h2 {
+    background-color: var(--pink);
+    max-width: 550px;
+    line-height: 5rem;
+    margin-left: 36rem;
+}
+
+.component__code--OurStory a {
+    color: var(--black);
+}
+
+.component__code--OurStory a:hover {
+    color: var(--white);
+}
+
+  .values-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .values-group img {
+      max-height: 100px;
+  }
+
+  .values {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 300px;
+      line-height: 3rem;
+  }
