@@ -5,7 +5,7 @@
     --white: #eaeaea;
     --red: #f52437;
     --orange: #f95008;
-    --yellow: #fbb92a;
+    --yellow: #fdd144;
     --green: #148f67;
     --blue: #1989f0;
     --pink: #ed9ede;
@@ -213,4 +213,73 @@ h3 {
     top: 45rem;
     right: 16rem;
     max-height: 100px;
+}
+
+  /* THIS IS MINI COOLS */
+
+.component__code--ThisIS {
+    background-color: var(--yellow);
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.component__code--ThisIS h2 {
+    width: 350px;
+    margin: 0 40rem;
+    line-height: 1em;
+    padding-top: 5rem;
+}
+
+.component__code--ThisIS p {
+    width: 300px;
+    margin: 0 42rem;
+    padding-bottom: 1rem;
+}
+
+.component__code--ThisIS a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.component__code--ThisIS a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    max-width: 200px;
+    text-align: center;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 12px 15px;
+
+}
+
+.button:hover{
+    display: inline-block;
+    max-width: 200px;
+    text-align: center;
+    background: var(--black);
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 12px 15px;
+
+}
+
+.container__minicools {
+    position: relative;
+}
+
+.hello-icon1 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.hello-icon2 {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
 }
