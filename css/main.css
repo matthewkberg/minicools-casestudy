@@ -77,6 +77,8 @@ h3 {
     max-width: 100px;
 }
 
+/* BANNER */
+
 .component__img--banner img {
     max-width: 100%;
 }
@@ -91,4 +93,124 @@ h3 {
 
 .component__code--banner p {
     padding: 0.25rem;
+}
+
+/*NAVIGATION */
+
+.component__img--MainNav img{
+    max-width: 100%;
+}
+.component__code--main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0 0 20rem;
+  
+  }
+  
+  .main-nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .main-nav__list img {
+      max-width: 50%;
+  }
+  
+  .logo {
+    margin: 0 8rem;
+  }
+  
+  .main-nav__item {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  
+  .main-nav__item a {
+    text-decoration: none;
+    color: var(--black);
+  }
+  
+  .main-nav__shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .main-nav__icon img {
+    max-height: 100%;
+    padding: 0 0.75rem;
+  }
+
+  /* HERO */
+
+  .component__code--hero img{
+      max-width: 100%;
+  }
+
+  .container {
+      position: relative;
+  }
+
+  .container__icons {
+      all: unset;
+  }
+
+  .icon1 {
+      position: absolute;
+      top: 5rem;
+      left: 20rem;
+      max-height: 125px;
+  }
+
+  .icon2 {
+      position: absolute;
+      top: 10rem;
+      right: 20rem;
+      max-height: 100px;
+  }
+
+  .icon3 {
+    position: absolute;
+    top: 25rem;
+    left: 20rem;
+    max-height: 100px;
+}
+
+.icon4 {
+    position: absolute;
+    top: 28rem;
+    right: 36rem;
+    max-height: 55px;
+}
+
+.icon5 {
+    position: absolute;
+    top: 35rem;
+    left: 36rem;
+    max-height: 100px;
+}
+
+.icon6 {
+    position: absolute;
+    top: 32rem;
+    right: 26rem;
+    max-height: 75px;
+}
+
+.icon7 {
+    position: absolute;
+    top: 42rem;
+    left: 20rem;
+    max-height: 100px;
+}
+
+.icon8 {
+    position: absolute;
+    top: 45rem;
+    right: 16rem;
+    max-height: 100px;
 }
