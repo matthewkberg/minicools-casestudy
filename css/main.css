@@ -76,3 +76,19 @@ h3 {
 .component__code img {
     max-width: 100px;
 }
+
+.component__img--banner img {
+    max-width: 100%;
+}
+
+.component__code--banner {
+    background-color: var(--orange);
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.component__code--banner p {
+    padding: 0.25rem;
+}
