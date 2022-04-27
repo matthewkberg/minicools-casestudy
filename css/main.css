@@ -291,6 +291,7 @@ h3 {
       width: 100%;
       background-color: var(--pink);
       text-align: center;
+      padding-bottom: 5rem;
   }
 
   .component__code--OurStory h2 {
