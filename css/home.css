@@ -83,7 +83,7 @@ h3 {
     justify-content: space-around;
     list-style: none;
     /* border: 2px blue solid; */
-    padding: 0 20rem 0 20rem;
+    padding: 0 15rem 0 30rem;
   }
 
   .main-nav__list img {
@@ -96,6 +96,7 @@ h3 {
       max-width: 150px;
       text-align: center;
       line-height: 0.75em;
+      margin: 0 5rem;
       /* border: 2px solid magenta; */
 
   } 
