@@ -1,0 +1,312 @@
+:root {
+    --font-sans-serif: Poppins, sans-serif;
+    --font-serif: Luckiest Guy, serif;
+    --black: #000;
+    --white: #eaeaea;
+    --red: #f52437;
+    --orange: #f95008;
+    --yellow: #fdd144;
+    --green: #148f67;
+    --blue: #1989f0;
+    --pink: #ed9ede;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Typography */
+  
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    color: var(--black);
+    line-height: 1.75;
+    min-width: 1680px;
+    max-width: 1680px;
+}
+
+img {
+    /* max-width: 100%; */
+    /* display: block; */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif);
+    color: var(--black);
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+/* BANNER */
+
+.banner {
+    background-color: var(--orange);
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.banner p {
+    padding: 0.25rem;
+}
+
+/*NAVIGATION */
+
+.main-nav img{
+    max-width: 50%;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px red solid;
+  
+  }
+  
+  .main-nav__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    border: 2px blue solid;
+    padding: 0 20rem 0 20rem;
+  }
+
+  .main-nav__list img {
+      max-width: 25%;
+  }
+
+  .main-nav__logo {
+      font-family: var(--font-serif);
+      font-size: 3rem;
+      max-width: 150px;
+      text-align: center;
+      line-height: 0.75em;
+      border: 2px solid magenta;
+
+  } 
+  
+  .main-nav__item {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 2px solid blue;
+  }
+  
+  .main-nav__item a {
+    text-decoration: none;
+    color: var(--black);
+  }
+  
+  .main-nav__shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border: 2px solid yellow;
+  }
+  
+  .main-nav__icon img {
+    max-height: 100%;
+    padding: 0 0.75rem;
+  }
+
+  /* HERO */
+
+  .hero img{
+      max-width: 100%;
+  }
+
+  .container {
+      position: relative;
+      margin: 0;
+  }
+
+  .container__icons {
+      all: unset;
+  }
+
+  .icon1 {
+      position: absolute;
+      top: 5rem;
+      left: 20rem;
+      max-height: 125px;
+  }
+
+  .icon2 {
+      position: absolute;
+      top: 10rem;
+      right: 20rem;
+      max-height: 100px;
+  }
+
+  .icon3 {
+    position: absolute;
+    top: 25rem;
+    left: 20rem;
+    max-height: 100px;
+}
+
+.icon4 {
+    position: absolute;
+    top: 28rem;
+    right: 36rem;
+    max-height: 55px;
+}
+
+.icon5 {
+    position: absolute;
+    top: 35rem;
+    left: 36rem;
+    max-height: 100px;
+}
+
+.icon6 {
+    position: absolute;
+    top: 32rem;
+    right: 26rem;
+    max-height: 75px;
+}
+
+.icon7 {
+    position: absolute;
+    top: 42rem;
+    left: 20rem;
+    max-height: 100px;
+}
+
+.icon8 {
+    position: absolute;
+    top: 45rem;
+    right: 16rem;
+    max-height: 100px;
+}
+
+  /* THIS IS MINI COOLS */
+
+.minicools {
+    background-color: var(--yellow);
+    text-align: center;
+    padding-bottom: 5rem;
+    margin-top: -25px;
+}
+
+.minicools img {
+    max-width: 25%;
+}
+
+.minicools h2 {
+    width: 350px;
+    margin: 0 40rem;
+    line-height: 1em;
+    padding-top: 5rem;
+}
+
+.minicools p {
+    width: 300px;
+    margin: 0 42rem;
+    padding-bottom: 1rem;
+}
+
+.minicools a {
+    color: var(--black);
+
+}
+
+.minicools a:hover {
+    color: var(--white);
+
+}
+
+.button {
+    display: inline-block;
+    max-width: 200px;
+    text-align: center;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 12px 15px;
+
+}
+
+.button:hover{
+    display: inline-block;
+    max-width: 200px;
+    text-align: center;
+    background: var(--black);
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 12px 15px;
+
+}
+
+.container__minicools {
+    position: relative;
+}
+
+.hello-icon1 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.hello-icon2 {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+}
+
+  /* OUR STORY */
+
+  .our-story {
+      display: inline-block;
+      width: 100%;
+      background-color: var(--pink);
+      text-align: center;
+      padding-bottom: 5rem;
+  }
+
+  .our-story h2 {
+    background-color: var(--pink);
+    max-width: 550px;
+    line-height: 5rem;
+    margin-left: 36rem;
+}
+
+.our-story a {
+    color: var(--black);
+}
+
+.our-story a:hover {
+    color: var(--white);
+}
+
+  .values-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .values-group img {
+      max-height: 100px;
+  }
+
+  .values {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 300px;
+      line-height: 3rem;
+  }
