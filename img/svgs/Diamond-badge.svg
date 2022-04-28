@@ -1,0 +1,42 @@
+<svg id="Diamond_badge" data-name="Diamond badge" xmlns="http://www.w3.org/2000/svg" width="89.432" height="103.473" viewBox="0 0 89.432 103.473">
+  <g id="Group_36" data-name="Group 36" transform="translate(-1570.219 -582.72)">
+    <path id="Path_61" data-name="Path 61" d="M1571.021,611l9.945-16.639,44.511-10.837,16.989,9.857,16.381,63.573-9.683,16.2L1605,685.387l-18.214-10.292Z" fill="#1263ff"/>
+    <path id="Path_62" data-name="Path 62" d="M1604.906,686.193l-18.767-10.6-15.92-64.714,10.264-17.173,45.109-10.982,17.522,10.165,16.537,64.181-10,16.728ZM1587.441,674.6l17.663,9.98,43.57-12.072,9.368-15.675-16.224-62.966-16.457-9.548-43.913,10.691-9.625,16.105Z"/>
+  </g>
+  <g id="Group_37" data-name="Group 37" transform="translate(-1570.219 -582.72)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="34.949" height="54.507" transform="translate(1591.154 612.166) rotate(-14.134)" fill="#43b3ff"/>
+    <path id="Path_63" data-name="Path 63" d="M1603.92,665.934l-13.676-54.312,35.345-8.9,13.676,54.311Zm-11.856-53.223,12.945,51.4,32.436-8.168-12.945-51.4Z"/>
+  </g>
+  <g id="Group_38" data-name="Group 38" transform="translate(-1570.219 -582.72)">
+    <line id="Line_1" data-name="Line 1" x1="0.432" y2="20.113" transform="translate(1625.045 583.52)" fill="#fbc936"/>
+    <path id="Path_64" data-name="Path 64" d="M1625.045,604.382h-.016a.75.75,0,0,1-.734-.766l.432-20.112a.74.74,0,0,1,.766-.734.751.751,0,0,1,.734.766l-.433,20.112A.749.749,0,0,1,1625.045,604.382Z"/>
+  </g>
+  <g id="Group_39" data-name="Group 39" transform="translate(-1570.219 -582.72)">
+    <line id="Line_2" data-name="Line 2" x1="17.421" y2="10.256" transform="translate(1625.045 593.376)" fill="#fbc936"/>
+    <path id="Path_65" data-name="Path 65" d="M1625.045,604.382a.75.75,0,0,1-.381-1.4l17.421-10.256a.75.75,0,1,1,.761,1.293l-17.421,10.255A.738.738,0,0,1,1625.045,604.382Z"/>
+  </g>
+  <g id="Group_40" data-name="Group 40" transform="translate(-1570.219 -582.72)">
+    <line id="Line_3" data-name="Line 3" x1="20.492" y1="0.461" transform="translate(1638.355 656.489)" fill="#fbc936"/>
+    <path id="Path_66" data-name="Path 66" d="M1658.847,657.7h-.017l-20.492-.461a.75.75,0,0,1-.733-.767.737.737,0,0,1,.767-.733l20.492.461a.75.75,0,0,1-.017,1.5Z"/>
+  </g>
+  <g id="Group_41" data-name="Group 41" transform="translate(-1570.219 -582.72)">
+    <line id="Line_4" data-name="Line 4" x1="10.809" y1="16.662" transform="translate(1638.355 656.489)" fill="#fbc936"/>
+    <path id="Path_67" data-name="Path 67" d="M1649.164,673.9a.749.749,0,0,1-.63-.342L1637.726,656.9a.75.75,0,0,1,1.258-.816l10.809,16.662a.75.75,0,0,1-.629,1.158Z"/>
+  </g>
+  <g id="Group_42" data-name="Group 42" transform="translate(-1570.219 -582.72)">
+    <line id="Line_5" data-name="Line 5" x1="0.54" y1="20.364" transform="translate(1604.464 665.023)" fill="#fbc936"/>
+    <path id="Path_68" data-name="Path 68" d="M1605,686.137a.75.75,0,0,1-.749-.73l-.54-20.364a.749.749,0,0,1,.73-.769.762.762,0,0,1,.769.73l.54,20.363a.751.751,0,0,1-.73.77Z"/>
+  </g>
+  <g id="Group_43" data-name="Group 43" transform="translate(-1570.219 -582.72)">
+    <line id="Line_6" data-name="Line 6" y1="10.072" x2="17.674" transform="translate(1586.79 665.023)" fill="#fbc936"/>
+    <path id="Path_69" data-name="Path 69" d="M1586.791,675.845a.75.75,0,0,1-.372-1.4l17.674-10.071a.75.75,0,0,1,.743,1.3l-17.674,10.072A.758.758,0,0,1,1586.791,675.845Z"/>
+  </g>
+  <g id="Group_44" data-name="Group 44" transform="translate(-1570.219 -582.72)">
+    <line id="Line_7" data-name="Line 7" x2="20.133" y2="1.171" transform="translate(1571.021 610.996)" fill="#fbc936"/>
+    <path id="Path_70" data-name="Path 70" d="M1591.155,612.916h-.044l-20.134-1.171a.75.75,0,1,1,.087-1.5l20.134,1.171a.75.75,0,0,1-.043,1.5Z"/>
+  </g>
+  <g id="Group_45" data-name="Group 45" transform="translate(-1570.219 -582.72)">
+    <line id="Line_8" data-name="Line 8" x2="10.188" y2="17.81" transform="translate(1580.966 594.356)" fill="#fbc936"/>
+    <path id="Path_71" data-name="Path 71" d="M1591.155,612.917a.751.751,0,0,1-.652-.378l-10.189-17.81a.75.75,0,0,1,1.3-.745l10.188,17.81a.749.749,0,0,1-.279,1.023A.736.736,0,0,1,1591.155,612.917Z"/>
+  </g>
+</svg>
