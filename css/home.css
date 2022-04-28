@@ -71,7 +71,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
   
   }
   
@@ -81,7 +81,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     padding: 0 20rem 0 20rem;
   }
 
@@ -95,14 +95,14 @@ h3 {
       max-width: 150px;
       text-align: center;
       line-height: 0.75em;
-      border: 2px solid magenta;
+      /* border: 2px solid magenta; */
 
   } 
   
   .main-nav__item {
     text-transform: uppercase;
     font-size: 1.5rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
   
   .main-nav__item a {
@@ -115,7 +115,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
   }
   
   .main-nav__icon img {
