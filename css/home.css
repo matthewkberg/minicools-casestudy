@@ -515,17 +515,36 @@ a {
 
     /* FOOTER SECTION */
 
-.Footer {
+.footer {
     text-align: center;
 }
 
-.Footer h1 {
+.footer h1 {
     color: var(--red);
     text-align: center;
     font-size: 30rem;
     line-height: 23rem;
     margin-bottom: 0;
 }
+
+.footer h2 {
+    text-align: center;
+    max-width: 1100px;
+    line-height: 5rem;
+    padding-left: 36rem;
+    margin: 0;
+}
+
+    .footer__img {
+        max-width: 800px;
+        margin-left: 25rem;
+        margin-top: 3rem;
+    }
+
+    .starburst__img {
+        max-width: 300px;
+        margin: 3rem 40rem 0rem 42rem;
+    }
 
 .email {
     display: inline-block;
@@ -545,11 +564,6 @@ a {
         min-width: 350px;
     }
 
-    .connect img {
-        min-width: 800px;
-        margin-top: 3rem;
-    }
-
     .footer-nav {
         display: flex;
         flex-direction: row;
@@ -559,4 +573,9 @@ a {
 
     .footer-nav a:hover {
         text-decoration: underline;
+    }
+
+    .payment__img {
+        max-height: 50px;
+        margin: 3rem 40rem 0rem 40rem;
     }
