@@ -425,28 +425,28 @@ h3 {
      .heart-icon {
          position: absolute;
          max-height: 75px;
-         top: 15rem;
+         top: 20rem;
          left: 49.9rem;
      }
 
      .bestseller-icon {
         position: absolute;
         max-height: 150px;
-        top: 20rem;
+        top: 25rem;
         left: 43.25rem;
     }
 
     .hand-icon1 {
         position: absolute;
         max-height: 75px;
-        top: 20rem;
+        top: 25rem;
         left: 4rem;
     }
 
     .hand-icon2 {
         position: absolute;
         max-height: 75px;
-        top: 20rem;
+        top: 25rem;
         right: 2rem;
     }
 
