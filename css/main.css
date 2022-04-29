@@ -24,6 +24,7 @@ html {
 body {
     font-family: var(--font-sans-serif);
     font-weight: bold;
+    /* font-size: 1.25rem; */
     color: var(--black);
     line-height: 1.75;
     min-width: 1680px;
@@ -219,37 +220,38 @@ h3 {
 
   /* THIS IS MINI COOLS */
 
-.component__code--ThisIS {
+    .component__code--ThisIS {
     background-color: var(--yellow);
     text-align: center;
     padding-bottom: 5rem;
-}
+    }
 
-.component__code--ThisIS h2 {
+    .component__code--ThisIS h2 {
     width: 350px;
     margin: 0 40rem;
     line-height: 1em;
     padding-top: 5rem;
-}
+    }
 
-.component__code--ThisIS p {
+    .component__code--ThisIS p {
     width: 300px;
     margin: 0 42rem;
     padding-bottom: 1rem;
-}
+    }
 
-.component__code--ThisIS a {
+    .component__code--ThisIS a {
     color: var(--black);
 
-}
+    }
 
-.component__code--ThisIS a:hover {
+    .component__code--ThisIS a:hover {
     color: var(--white);
 
-}
+    }
 
-.button {
+    .button {
     display: inline-block;
+    min-width: 200px;
     max-width: 200px;
     text-align: center;
     background: transparent;
@@ -257,74 +259,157 @@ h3 {
     border: 2px solid #000;
     padding: 12px 15px;
 
-}
+    }
 
-.button:hover{
+    .button:hover{
     display: inline-block;
-    max-width: 200px;
+    min-width: 200px;
     text-align: center;
     background: var(--black);
     border-radius: 30px;
     border: 2px solid #000;
     padding: 12px 15px;
 
-}
+    }
 
-.container__minicools {
+    .container__minicools {
     position: relative;
-}
+    }
 
-.hello-icon1 {
+    .hello-icon1 {
     position: absolute;
     top: 5rem;
     left: 5rem;
-}
+    }
 
-.hello-icon2 {
+    .hello-icon2 {
     position: absolute;
     top: 3.5rem;
     right: 5rem;
-}
+    }
 
-  /* OUR STORY */
+    /* OUR STORY */
 
-  .component__code--OurStory {
-      display: inline-block;
-      width: 100%;
-      background-color: var(--pink);
-      text-align: center;
-      padding-bottom: 5rem;
-  }
+    .component__code--OurStory {
+        display: inline-block;
+        width: 100%;
+        background-color: var(--pink);
+        text-align: center;
+        padding-bottom: 5rem;
+    }
 
-  .component__code--OurStory h2 {
+    .component__code--OurStory h2 {
     background-color: var(--pink);
     max-width: 550px;
     line-height: 5rem;
     margin-left: 36rem;
-}
+    }
 
-.component__code--OurStory a {
+    .component__code--OurStory a {
     color: var(--black);
-}
+    }
 
-.component__code--OurStory a:hover {
+    .component__code--OurStory a:hover {
     color: var(--white);
-}
+    }
 
-  .values-group {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-  }
+    .values-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
-  .values-group img {
-      max-height: 100px;
-  }
+    .values-group img {
+        max-height: 100px;
+    }
 
-  .values {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      max-width: 300px;
-      line-height: 3rem;
-  }
+    .values {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        line-height: 3rem;
+    }
+
+    /* SHOP FAVES */
+
+    .component__code--Faves {
+        text-align: center;
+    }
+
+    .faves__header {
+        text-align: center;
+    }
+
+    .faves__header h2 {
+        margin-bottom: 0;
+    }
+
+    .faves__header p {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .container__faves {
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .container__faves--icon img {
+        max-width: 100px;
+    }
+
+    .container__faves--icon {
+        position: absolute;
+        top: 4rem;
+        left: 27rem;
+    }
+
+    .products-group__1 , .products-group__2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        margin: auto;
+        padding-right: 1rem;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products img {
+        min-width: 300px;
+    }
+
+    .products a {
+        color: var(--black);
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .products p {
+        line-height: 0.25em;
+    }
+
+    .button__faves {
+        display: inline-block;
+        min-width: 200px;
+        text-align: center;
+        background: var(--black);
+        border-radius: 30px;
+        border: 2px solid #000;
+        padding: 12px 15px;
+    
+    }
+
+    .button__faves {
+        color: var(--white);
+    }
+
+    .button__faves:hover {
+        text-decoration: underline;
+    }
