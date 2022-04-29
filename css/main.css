@@ -49,6 +49,11 @@ h3 {
     font-size: 3rem;
 }
 
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 /* .component */
 
 .component img {
@@ -129,11 +134,6 @@ h3 {
   .main-nav__item {
     text-transform: uppercase;
     font-size: 1.5rem;
-  }
-  
-  .main-nav__item a {
-    text-decoration: none;
-    color: var(--black);
   }
   
   .main-nav__shop {
@@ -239,20 +239,11 @@ h3 {
     padding-bottom: 1rem;
     }
 
-    .component__code--ThisIS a {
-    color: var(--black);
-
-    }
-
-    .component__code--ThisIS a:hover {
-    color: var(--white);
-
-    }
-
     .button {
     display: inline-block;
     min-width: 200px;
     max-width: 200px;
+    color: var(--black);
     text-align: center;
     background: transparent;
     border-radius: 30px;
@@ -264,6 +255,7 @@ h3 {
     .button:hover{
     display: inline-block;
     min-width: 200px;
+    color: var(--white);
     text-align: center;
     background: var(--black);
     border-radius: 30px;
@@ -303,14 +295,6 @@ h3 {
     max-width: 550px;
     line-height: 5rem;
     margin-left: 36rem;
-    }
-
-    .component__code--OurStory a {
-    color: var(--black);
-    }
-
-    .component__code--OurStory a:hover {
-    color: var(--white);
     }
 
     .values-group {
@@ -385,8 +369,6 @@ h3 {
     }
 
     .products a {
-        color: var(--black);
-        text-decoration: none;
         margin-top: 5px;
         margin-bottom: -10px;
     }
@@ -474,7 +456,34 @@ h3 {
         padding-top: 10rem;
     }
 
-    .bests a {
-        color: var(--black);
-        text-decoration: none;
+     /* SHOP THE LOOK */
+
+    .look-group {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    .look-group h2 {
+        line-height: 5rem;
+
+    }
+
+    .look__icon {
+        display: block;
+        max-height: 100px;
+    }
+
+    .the-look img {
+        min-width: 500px;
+        padding-top: 10rem;
+    }
+
+    .the-look__img {
+        min-width: 500px;
+        margin-top: 0;
+        padding-top: 0;
     }
