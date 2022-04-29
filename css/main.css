@@ -487,3 +487,22 @@ a {
         margin-top: 0;
         padding-top: 0;
     }
+
+         /* CHERRY SECTION */
+
+    .component__code--Cherry {
+        min-height: 600px;
+        background-image: url(../components/img/svgs/Cherries-badge.svg);
+        background-repeat: repeat;
+        background-color: #eb6380;
+        margin: 0;
+    }
+
+    .component__code--Cherry h2 {
+        color: var(--white);
+        text-align: center;
+        font-size: 8rem;
+        line-height: 7rem;
+        /* max-width: 900px; */
+        padding: 15rem 10rem;
+    }
