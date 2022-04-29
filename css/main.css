@@ -450,23 +450,14 @@ h3 {
         right: 2rem;
     }
 
-     .bests-group__1 , .bests-group__2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-        padding-top: 4rem;
-        margin: 0;
-        /* padding-right: 1rem; */
-    }
-
     .bests-group__1 {
         background-color: #f2ae2f;
+        list-style: none;
     }
 
     .bests-group__2 {
         background-color: #009e7a;
+        list-style: none;
     }
 
     .bests {
@@ -480,6 +471,7 @@ h3 {
     .bests img {
         min-width: 500px;
         padding-bottom: 1rem;
+        padding-top: 10rem;
     }
 
     .bests a {
