@@ -494,6 +494,7 @@ a {
         min-height: 600px;
         background-image: url(../components/img/svgs/Cherries-badge.svg);
         background-repeat: repeat;
+        background-attachment: fixed;
         background-color: #eb6380;
         margin: 0;
     }
@@ -503,6 +504,5 @@ a {
         text-align: center;
         font-size: 8rem;
         line-height: 7rem;
-        /* max-width: 900px; */
         padding: 15rem 10rem;
     }
