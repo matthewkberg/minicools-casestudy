@@ -413,3 +413,76 @@ h3 {
     .button__faves:hover {
         text-decoration: underline;
     }
+
+     /* SHOP FAVES */
+
+     .container__bests {
+         position: relative;
+         display: flex;
+         margin: 0;
+     }
+
+     .heart-icon {
+         position: absolute;
+         max-height: 75px;
+         top: 15rem;
+         left: 49.9rem;
+     }
+
+     .bestseller-icon {
+        position: absolute;
+        max-height: 150px;
+        top: 20rem;
+        left: 43.25rem;
+    }
+
+    .hand-icon1 {
+        position: absolute;
+        max-height: 75px;
+        top: 20rem;
+        left: 4rem;
+    }
+
+    .hand-icon2 {
+        position: absolute;
+        max-height: 75px;
+        top: 20rem;
+        right: 2rem;
+    }
+
+     .bests-group__1 , .bests-group__2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding-top: 4rem;
+        margin: 0;
+        /* padding-right: 1rem; */
+    }
+
+    .bests-group__1 {
+        background-color: #f2ae2f;
+    }
+
+    .bests-group__2 {
+        background-color: #009e7a;
+    }
+
+    .bests {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 0.25em;
+        padding-bottom: 3rem;
+    }
+
+    .bests img {
+        min-width: 500px;
+        padding-bottom: 1rem;
+    }
+
+    .bests a {
+        color: var(--black);
+        text-decoration: none;
+    }
